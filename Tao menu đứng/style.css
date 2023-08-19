@@ -1,0 +1,23 @@
+ul.vmenu {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px orange;
+    list-style: none;
+}
+.vmenu li a{
+    display: block;
+}
+.vmenu li a i{
+    margin-right: 10px;
+}
+ul.vmenu>li>a {
+    display: block;
+    line-height: 50px;
+    border-bottom: 1px dotted orange;
+    text-decoration: none;
+    font-variant: small-caps;
+    color: orange;
+    padding-left: 20px;
+}
+

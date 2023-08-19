@@ -1,0 +1,47 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.header{
+  background-color: #0aba71;
+  height: auto;
+
+}
+.submenu {
+   display: none;
+   position: absolute;
+   background-color: rgb(10, 183, 131);
+
+  
+ }
+ .submenu ul li{
+  width: 100px;
+ }
+
+ .list2:hover .submenu {
+   display: block;
+ }
+
+ .menu {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+
+ .menu li {
+   margin-right: 20px;
+   position: relative;
+   display: inline-block;
+   padding: 5px;
+ }
+
+
+ .menu li a {
+   text-decoration: none;
+   color: rgb(236, 246, 241);
+   display: block;
+   padding: 10px 15px;
+ }
+.menu li a:hover{
+  background-color: blanchedalmond;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <h3>Đăng kí thành viên</h3>
+      <from action="Register.php" method="post" enctype="multipart/form-data">
+        <label>User Name</label><br />
+        <input name="id" type="text" /><br />
+        <label>Password</label><br />
+        <input name="Password" type="password" /><br />
+        <label>Full name</label><br />
+        <input name="fullname" type="text" /><br />
+        <label>photo</label><br />
+        <input name="photo" type="file" /><br />
+        <hr />
+      </from>
+      <button type="submit">Register</button>
+    </div>
+  </body>
+</html>

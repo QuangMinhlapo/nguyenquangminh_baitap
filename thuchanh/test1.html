@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./test1.css" />
+  </head>
+
+  <body>
+    <div class="form">
+      <h1 class="title">Đăng kí thành viên</h1>
+      <from action="Register.php" method="post" enctype="multipart/form-data">
+        <label>Mã sinh viên </label><br />
+        <input class="text" name="id" type="text" /><br />
+        <label>Họ và tên </label><br />
+        <input class="text" name="id" type="text" /><br />
+
+        <label>Email</label><br />
+        <input class="text" id="email" name="email" required /><br /><br />
+        <label>Giới tính:</label><br />
+        <div class="like">
+          <input type="radio" name="gioitinh" id="Nam" />Nam
+          <input type="radio" name="gioitinh" id="nữ" />nữ<br />
+        </div>
+        <label>Sở thích</label><br />
+        <div class="like">
+          <input type="checkbox" name="sothich" id="Đocsach" />Đọc sách
+          <input type="checkbox" name="sothich" id="dulich" />du lịch
+          <input type="checkbox" name="sothich" id="amnhac" />âm nhạc
+          <input type="checkbox" name="sothich" id="amthuc" />ẩm thực
+          <input type="checkbox" name="sothich" id="khac" />khác<br />
+        </div>
+        <label for="nationality">Quốc tịch:</label><br />
+        <select id="nationality" name="nationality">
+          <option value="">Chọn quốc tịch</option>
+          <option value="vietnam">Việt Nam</option>
+          <option value="usa">Mỹ</option>
+          <option value="japan">Nhật Bản</option>
+          <!-- Thêm các quốc gia khác vào đây --></select
+        ><br /><br />
+        <label for="notes">Ghi chú:</label><br />
+        <textarea id="notes" name="notes" rows="4" cols="50"></textarea
+        ><br /><br />
+         <button>Đăng kí</button><hr />
+      </from>
+    </div>
+  </body>
+</html>
